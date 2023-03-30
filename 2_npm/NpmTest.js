@@ -7,6 +7,7 @@ figlet('Hello World!!', function(err, data) {
         return;
     }
     console.log(data)
+    console.log("testing")
 });
 
 // install figlet module
