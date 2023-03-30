@@ -1,6 +1,6 @@
-const figlet = require('figlet')
+const figlet = require('figlet');
 
-figlet('Find Me!!', function(err, data) {
+figlet('Hello World!!', function(err, data) {
     if (err) {
         console.log('Something went wrong...');
         console.dir(err);
@@ -8,3 +8,10 @@ figlet('Find Me!!', function(err, data) {
     }
     console.log(data)
 });
+
+// install figlet module
+// npm i figlet
+/////////////////////////////////////////////////////////////////////////////////////
+
+
+
